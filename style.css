@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+}
+.log-btns{
+    padding: 12px 0; 
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transform: all 0.3s ease;
+ }
+ .btn{
+    padding: 13px 22px;
+    font-weight: 500;
+    border-radius: 23px; 
+    border: none;   
+    background: #fff;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
+}
+
+/* Navigation styles start*/
+
+.parent-nav{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+}
+
+.inner-nav{
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+
+/* logo and search start */
+.logo-and-search > img{
+   width: 8rem;
+   cursor: pointer;
+   width: 135px;
+}
+
+/* Logo and search end */
+
+
+
+/* nav-options start */
+.nav-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-li{
+    list-style: none;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(86, 86, 86);
+    width: 83px;
+}
+.nav-li:hover{
+    color: black;
+}
+.nav-li > ion-icon{
+    font-size: 26px;
+}
+.job-li{
+    border-right: solid 1px gray;
+}
+.join-btn:hover{
+    background: rgba(128, 128, 128, 0.125);
+}
+.sign-btn {
+    border: solid 1px #2c2cef;
+    color: rgb(44, 44, 239);
+}
+.sign-btn:hover{
+    background: #0a66c218;
+}
+/* Nav option End */
+
+/* Navigation styles end */
+
+
+/* Body start */
+
+.parent-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7.5rem;
+}
+.inner-body {
+    width: 74%;
+    display: flex;
+}
+
+/* Left section start */
+.sign-section > h1{
+     font-weight: 200;
+     font-size: 3.5rem;
+     color: #8f5849;
+}
+
+.inner-body > img{
+    width: 700px;
+    position: absolute;
+    right: 2px;
+    top: 12rem;
+}
+
+
+/* Login Section start */
+.login-section {
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.email-pass {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 73%;
+}
+.email-pass > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.email-pass > div > label{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(52, 51, 51);
+}
+.pass-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.pass-area > div {
+     display: flex;
+     flex-direction: column;
+     position: relative;
+}
+.input-area{
+    color: #000000e6;
+    border: solid 1px #000000bf;
+    padding: 14px 16px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+}
+.pass-area > div > a{
+    font-size: 16px;
+    color: #0a66c2;
+    position: absolute;  
+    text-decoration: none;
+    padding: 14px 16px;
+    right: 0;
+    font-weight: 500;
+}
+.input-area:hover {
+    background: rgba(128, 128, 128, 0.118);
+    outline: solid 1px black;
+}
+
+
+.entry-btn{
+    display: flex;
+    flex-direction: column;
+    width: 73%;
+    gap: 23px;
+}
+.entry-btn > a {
+    text-decoration: none;
+    color: #0a66c2;
+    font-weight: 500;
+}
+.entry-btn > button {
+    background: #0a66c2;
+    color: #fff;    
+}
+.entry-btn > button:hover{
+    background: #033364;
+}
+/* Login section end */
+
+
+/* Join section start */
+.join-section  {
+    width: 73%;
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.or-section {
+    display: flex;
+    align-items: center;
+}
+.or-after {
+    width: 45%;
+    border-top: solid 0.1px rgb(162, 162, 162);
+}
+.or-section > p {
+    padding: 0 5%;
+}
+.or-before{
+    width: 45%;
+    border-top: solid 0.1px rgb(162, 162, 162);
+}
+.sign-btn-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.sign-btn-section > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-btn-section > div > div {
+    display: flex;
+    gap: 6px;
+} 
+.sign-btn-section > div > div > img {
+    width: 19px;
+}
+.sign-btn-section > div:nth-child(1){
+    border:  solid 1px rgb(214, 214, 214);
+    color: #3c4043;
+    font-size: 14px;
+    font-family: "Google Sans",arial,sans-serif;
+    font-weight: 500;
+}
+.sign-btn-section > div:nth-child(1):hover{
+    background: rgba(62, 62, 229, 0.051);
+}
+.sign-btn-section > button:nth-child(2){
+    border:  solid 1px #000;
+    background: #fff;
+}
+.sign-btn-section > button:nth-child(2):hover{
+    background: rgba(165, 165, 165, 0.188);
+}
+
+
