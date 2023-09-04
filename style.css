@@ -82,9 +82,27 @@
     cursor: pointer;
     color: rgb(86, 86, 86);
     width: 83px;
+    position: relative;
+}
+.nav-li::after {
+    content: '';
+    width: 100%;
+    transform: scale(0);
+    transform-origin: center;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -5px;
+    background: gray;
+    border-radius: 3px;
+    transition: all .7s ease;
 }
 .nav-li:hover{
     color: black;
+}
+.nav-li:hover::after {
+    transform: scale(1);
 }
 .nav-li > ion-icon{
     font-size: 26px;
