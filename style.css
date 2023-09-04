@@ -94,7 +94,7 @@
     left: 0;
     bottom: 0;
     margin-bottom: -5px;
-    background: gray;
+    background: #000;
     border-radius: 3px;
     transition: all .7s ease;
 }
